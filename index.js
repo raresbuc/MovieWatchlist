@@ -46,6 +46,7 @@ function addToWatchlist(event) {
 
 function displayMovies() {
     movieList.innerHTML = ""
+    inputTitle = []
     inputTitle.push(input.value.replace(" ", "+"))
 
     fetch(`https://omdbapi.com/?apikey=6f95752f&s=${inputTitle}`, {method: "GET"})
