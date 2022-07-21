@@ -1,0 +1,245 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: "gulzar", serif;
+    align-content: center;
+}
+
+.top1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 7em;
+    background-image: url("img/night-movies-evening-Ryan-Gosling-Drive-Drive-movie-97476-wallhere.com.jpg");
+    background-position: right;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.my-watchlist {
+    font-size: 1.2rem;
+    margin: 2.5em 0em 0em 45em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.top2 {
+    display: flex;
+    justify-content: center;
+    margin-top: -1.5em;
+}
+
+input {
+    width: 25%;
+    padding: 1em;
+    background: #A5A5A5;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    color: white;
+    text-align: center;
+}
+
+.fa-magnifying-glass {
+    position: relative;
+    padding: 1em;
+    margin-right: -3em;
+}
+
+.btn {
+    background: #4B4B4B;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    padding: 1em;
+    width: 10%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.placeholder1 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.placeholder2 {
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.fa-circle-plus {
+    margin-top: 0.8em;
+    margin-right: 0.2em;
+}
+
+.placeholder3 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-top: 3em;
+    color: #2E2E2F;
+}
+
+.fa-film {
+    margin-left: 1.5em;
+    font-size: 3rem;
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8em;
+}
+
+.movie {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid #2C2C2C;
+    background-color: #121212;
+    padding: 5em;
+}
+
+.film-cover {
+    height: 20em;
+}
+
+.movie-info {
+    margin-top: 7em;
+    margin: 0 auto;
+    padding-top: 5em;
+}
+
+.movie-info-1, .movie-info-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.film-rating {
+    margin: 1.3em 1em 1em 1em;
+}
+
+.film-run-time, .film-genre, .film-genre {
+    margin-right: 2em;
+}
+
+.add-watch {
+    display: flex;
+    font-size: 1.1rem;
+    background: none;
+    color: white;
+    margin-top: -0.15em;
+    cursor: pointer;
+    border: none;
+}
+
+.add-watch p {
+    margin-left: .2em;
+}
+
+.add-watch:hover {
+    color: rgb(6, 6, 137);
+}
+
+.remove-watch {
+    display: flex;
+    font-size: 1.1rem;
+    background: none;
+    color: white;
+    margin-top: 0.7em;
+    cursor: pointer;
+    border: none;
+}
+
+.remove-watch p {
+    margin-left: .5em;
+    margin-top: .1em;
+}
+
+.remove-watch:hover {
+    color: rgb(6, 6, 137);
+}
+
+.film-description {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1.2em;
+    text-align: left;
+}
+
+.fa-star {
+    color: gold;
+    margin-left: 2em;
+    margin-right: -0.8em;
+    margin-top: 1.1em;
+}
+
+@media (max-width: 1100px) {
+    .top1 {
+        display: flex;
+        flex-direction: column;
+        background-position: center;
+        align-items: center;
+        padding: 5em;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .my-watchlist {
+        font-size: 1rem;
+        margin: 2.5em 0em 0em 0em;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .placeholder1 {
+        font-size: 1.5rem;
+    }
+
+    input {
+        width: 50%;
+        background: #A5A5A5;
+        border: none;
+        border-radius: 8px 0px 0px 8px;
+        color: white;
+        text-align: center;
+    }
+
+    .btn {
+        background: #4B4B4B;
+        border: none;
+        border-radius: 0px 8px 8px 0px;
+        padding: 1em;
+        width: 20%;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .movie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .film-cover {
+        max-width: 200px;
+        margin-right: 1.5em;
+    }
+
+    .film-description {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 1.2em;
+        text-align: left;
+    }
+}
